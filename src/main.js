@@ -1,12 +1,14 @@
 import React from 'react';
-import HornedBeast from './HornedBeast';
+import HornedBeast from './hornedbeasts';
 
 class Main extends React.Component {
   render() {
     return (
       <div>
         <main>
-          <HornedBeast title="Rhino" url="https://images.unsplash.com/flagged/photo-1557650454-65194af63bf9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cmhpbm98ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="Rhino" description="A rhinoceros, commonly abbreviated to rhino, is a member of any of the five extant species of odd-toed ungulates in the family Rhinocerotidae"/>
+          <HornedBeast title="UniWhal" url="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg" alt="narwhal" description="A unicorn and a narwhal nuzzling their horns" horns="1"/>
+          <HornedBeast title="Rhino Family" url="https://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80"  alt="rhino" description="Mother (or father) rhino with two babies" horns="2"/>
+          <HornedBeast title="Unicorn Head" url="https://www.dhresource.com/0x0s/f2-albu-g5-M00-1A-11-rBVaI1hsIIiALxKzAAIHjSU3VkE490.jpg/wholesale-halloween-costume-prop-unicorn.jpg" alt="unicorn" description="Someone wearing a creepy unicorn head mask" horns="1"/>
         </main>
       </div>
     );
