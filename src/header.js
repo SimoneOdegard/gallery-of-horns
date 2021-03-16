@@ -1,11 +1,12 @@
 import React from 'react';
 
 class Header extends React.Component {
+  
   render () {
     return (
       <div>
         <header>
-          <h1>This is a header</h1>
+          <h1>Horned Beasts</h1>
         </header>
       </div>
     );
