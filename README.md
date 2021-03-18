@@ -23,5 +23,5 @@ This is a project for creating horned beasts.
 **Number and name of feature:** Display a Modal
 **Estimate of time needed to complete:** 2 hours
 **Start time:** 1:15pm
-**Finish time:** 
-**Actual time needed to complete:**
+**Finish time:** 5:10pm
+**Actual time needed to complete:** ~4 hours
