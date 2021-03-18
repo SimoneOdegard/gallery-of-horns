@@ -15,13 +15,21 @@ class HornedBeasts extends React.Component {
       this.setState({ numberOfHearts: this.state.numberOfHearts + 1});
     }
 
+    const popOut = () => {
+      this.props.displayAsModal(this.props.index);
+    }
+
     return (
       <div className="beasts">
-        <Card style={{ width: '18rem' }}>
-          <Card.Img src={this.props.url} alt={this.props.alt} title={this.props.title} onClick={hearts} />
+        <Card 
+        style={{ width: '18rem' }}
+        bg="info"
+        text="light"
+        >
+          <Card.Img src={this.props.url} alt={this.props.alt} title={this.props.title} onClick={popOut} />
           <Card.Body>
-            <Card.Title>{this.props.title} ❤️ {this.state.numberOfHearts}</Card.Title>
-            <Card.Text>
+            <Card.Title onClick={hearts}>{this.props.title} ❤️ {this.state.numberOfHearts}</Card.Title>
+            <Card.Text onClick={hearts}>
               {this.props.description}
             </Card.Text>
           </Card.Body>
