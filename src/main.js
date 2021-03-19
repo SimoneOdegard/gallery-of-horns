@@ -24,6 +24,7 @@ class Main extends React.Component {
             </div>
           ))}
         </CardDeck>
+        
       </div>
     );
   }
