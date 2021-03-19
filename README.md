@@ -25,3 +25,9 @@ This is a project for creating horned beasts.
 **Start time:** 1:15pm
 **Finish time:** 5:10pm
 **Actual time needed to complete:** ~4 hours
+
+**Number and name of feature:** Filter by Number of Horns
+**Estimate of time needed to complete:** 2 hours
+**Start time:** 1:30pm
+**Finish time:** 
+**Actual time needed to complete:** 
